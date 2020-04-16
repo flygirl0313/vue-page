@@ -19,7 +19,7 @@ Vue.use(Router);
 export default new Router({
     routes: [
         {
-            path: '/index',
+            path: '/',
             name: 'index',
             component: () => import('@/pages/index')
         },
